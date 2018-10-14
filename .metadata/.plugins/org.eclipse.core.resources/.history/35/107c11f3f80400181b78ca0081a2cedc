@@ -1,0 +1,22 @@
+package Controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import java.security.PublicKey;
+
+import org.junit.validator.PublicClassValidator;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+public class Home {
+@RequestMapping("/")
+{
+	Public String home() {
+	 return "Das Boot, reporting for duty!";
+	}
+}
+
+}
+
+

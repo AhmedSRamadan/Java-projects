@@ -1,0 +1,64 @@
+package arraylistTest;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+	
+	public ArrayListDemo() {
+		constructArrayList();
+			}	
+	
+	private void constructArrayList()
+	{
+		list.add("Ahmed");
+		list.add("Ramadan");
+		list.add("Sherif");
+		list.add("Ayman");
+		
+	}
+	
+	public int getMax(ArrayList list){
+	    int max = Integer.MIN_VALUE;
+	    for(int i=0; i<list.size(); i++){
+	        if(this.list.get(i) > max){
+	            max = this.list.get(i);
+	        }
+	    }
+	    return max;
+	}
+	
+
+	public ArrayList<String> getList() {
+		return list;
+	}
+
+
+
+	public void setList(ArrayList<String> list) {
+		this.list = list;
+	}
+
+
+
+	ArrayList<String> list = new ArrayList<String>();
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayListDemo obj = new ArrayListDemo();
+		
+		for(int i =0 ; i<obj.list.size() ;i++)
+		{
+		System.out.println(obj.list.get(i));
+		}
+		
+	
+
+	}
+	
+	
+	
+
+}

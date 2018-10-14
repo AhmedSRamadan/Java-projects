@@ -1,0 +1,43 @@
+package arraylistTest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+	
+	public ArrayListDemo() {
+		constructArrayList();
+		
+	}
+	
+	
+	
+	private void constructArrayList()
+	{
+		list.add("Ahmed");
+		list.add("Ramadan");
+		list.add("Sherif");
+		list.add("Ayman");
+		
+	}
+
+	ArrayList<String> list = new ArrayList<String>();
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayListDemo obj = new ArrayListDemo();
+		
+		for(String out : obj.list)
+		{
+		System.out.println(obj.list.get(i));
+		}
+
+	}
+	
+	
+	
+
+}

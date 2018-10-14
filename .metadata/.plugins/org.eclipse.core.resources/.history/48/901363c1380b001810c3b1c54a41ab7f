@@ -1,0 +1,21 @@
+package com.example.demostart.controller;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.VFEG.start.Model.Hello;
+
+@RestController
+public class Home {
+	@RequestMapping("/")
+	public Hello HomePage() {
+		 return new Hello("15", "Das Boot, reporting for duty!");
+		}
+	
+/*	public String HomePage() {
+	 return "Das Boot, reporting for duty!";
+	}
+*/
+	
+}

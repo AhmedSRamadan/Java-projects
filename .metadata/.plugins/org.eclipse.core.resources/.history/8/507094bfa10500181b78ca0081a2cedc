@@ -1,0 +1,14 @@
+package com.VFEG.start.Controller;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Home {
+	@RequestMapping("/")
+	public String HomePage() {
+	 return "Das Boot, reporting for duty!";
+	}
+
+}

@@ -1,0 +1,34 @@
+package arraylistTest;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+	
+	public ArrayListDemo() {
+		constructArrayList();
+		
+	}
+	
+	private void constructArrayList()
+	{
+		list.add("Ahmed");
+		list.add("Ramadan");
+		list.add("Sherif");
+		list.add("Ayman");
+		
+	}
+
+	ArrayList<String> list = new ArrayList<String>();
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayListDemo obj = new ArrayListDemo();
+		System.out.println(obj);
+
+	}
+	
+	
+	
+
+}
